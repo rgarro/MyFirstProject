@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4C9070250C6E5300034F47 /* Fusebox.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4C906F250C6E5300034F47 /* Fusebox.m */; };
 		FB86A0CF250B0B8500B37F4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB86A0CE250B0B8500B37F4D /* AppDelegate.m */; };
 		FB86A0D1250B0B8500B37F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB86A0D0250B0B8500B37F4D /* Assets.xcassets */; };
 		FB86A0D4250B0B8500B37F4D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB86A0D2250B0B8500B37F4D /* MainMenu.xib */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB4C906E250C6E5300034F47 /* Fusebox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fusebox.h; sourceTree = "<group>"; };
+		FB4C906F250C6E5300034F47 /* Fusebox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fusebox.m; sourceTree = "<group>"; };
 		FB86A0CA250B0B8400B37F4D /* MyFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB86A0CD250B0B8500B37F4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB86A0CE250B0B8500B37F4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 				FB86A0D5250B0B8500B37F4D /* Info.plist */,
 				FB86A0D6250B0B8500B37F4D /* main.m */,
 				FB86A0D8250B0B8500B37F4D /* MyFirstProject.entitlements */,
+				FB4C906E250C6E5300034F47 /* Fusebox.h */,
+				FB4C906F250C6E5300034F47 /* Fusebox.m */,
 			);
 			path = MyFirstProject;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4C9070250C6E5300034F47 /* Fusebox.m in Sources */,
 				FB86A0D7250B0B8500B37F4D /* main.m in Sources */,
 				FB86A0CF250B0B8500B37F4D /* AppDelegate.m in Sources */,
 			);
