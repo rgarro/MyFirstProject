@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Fusebox : NSObject
-
+{
+    IBOutlet id answerField;
+    IBOutlet id numberField1;
+    IBOutlet id numberField2;
+}
+- (IBAction)calculateAnswer:(id)sender;
 @end
