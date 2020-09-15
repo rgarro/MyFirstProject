@@ -717,7 +717,7 @@
                         </textFieldCell>
                         <accessibility identifier="numberField1"/>
                     </textField>
-                    <textField identifier="answerField" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Fy-Zy-iOi">
+                    <textField identifier="answerField" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Fy-Zy-iOi" userLabel="answerField">
                         <rect key="frame" x="354" y="121" width="96" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="KeJ-wB-bFH">
