@@ -16,7 +16,9 @@
     num1 = [numberField1 intValue];
     num2 = [numberField2 intValue];
     answer = num1 + num2;
-    [answerField setInteger:answer];//fix this line later..
-    //una u compro un piso de un edificio y solo emplea exalumnas que pasaron curso de chica suma ...
+    //[answerField setIntValue:answer];
+    NSString *answerTitle;
+    answerTitle = [NSString stringWithFormat:@"%d",answer];
+    [answerField setStringValue:answerTitle];
 }
 @end
