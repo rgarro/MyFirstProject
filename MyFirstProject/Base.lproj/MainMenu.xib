@@ -690,10 +690,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="486" height="177"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLs-Tl-Wqa">
-                        <rect key="frame" x="359" y="32" width="97" height="32"/>
+                    <button identifier="calculateAnswer" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLs-Tl-Wqa" userLabel="calculateAnswer">
+                        <rect key="frame" x="319" y="32" width="137" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Calculate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="j5l-aL-CrG">
+                        <buttonCell key="cell" type="push" title="Calculate Sum" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="j5l-aL-CrG">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
